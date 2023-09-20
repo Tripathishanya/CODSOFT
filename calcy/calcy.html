@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta  name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="calcy.css" rel="stylesheet">
+    <script src="calcy.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <form action="" class="frm" name="myform">
+        <div class="container">
+            <div class="item disp"><input type="text" value="" name="txt" id="display" readonly></div>
+            <div class="item"><input type="button" value="C" onclick="clr()"></div>
+            <div class="item"><input type="button" value="%" onclick="prct()"></div>
+            <div class="item"><input type="button" value="&radic;" onclick="sqRoot()"></div>
+            <div class="item"><input type="button" value="DEL" onclick="delt()"></div>
+            <div class="item"><input type="button" value="+/-" onclick="sign()"></div>
+            <div class="item"><input type="button" value="(" onclick="into(this.value)"></div>
+            <div class="item"><input type="button" value=")" onclick="into(this.value)"></div>
+            <div class="item"><input type="button" value="/" onclick="into(this.value)"></div>
+            <div class="item"><input type="button" value="7" onclick="into(this.value)"></div>
+            <div class="item"><input type="button" value="8" onclick="into(this.value)"></div>
+            <div class="item"><input type="button" value="9" onclick="into(this.value)"></div>
+            <div class="item"><input type="button" value="*" onclick="into(this.value)"></div>
+            <div class="item"><input type="button" value="4" onclick="into(this.value)"></div>
+            <div class="item"><input type="button" value="5" onclick="into(this.value)"></div>
+            <div class="item"><input type="button" value="6" onclick="into(this.value)"></div>
+            <div class="item"><input type="button" value="-" onclick="into(this.value)"></div>
+            <div class="item"><input type="button" value="1" onclick="into(this.value)"></div>
+            <div class="item"><input type="button" value="2" onclick="into(this.value)"></div>
+            <div class="item"><input type="button" value="3" onclick="into(this.value)"></div>
+            <div class="item plus"><input type="button" value="+" onclick="into(this.value)"></div>
+            <div class="item"><input type="button" value="+/-" onclick="sign()"></div>
+            <div class="item zero"><input type="button" value="0" onclick="into(this.value)"></div>
+            <div class="item"><input type="button" value="." onclick="into(this.value)"></div>
+            <div class="item eq"><input type="button" value="=" onclick="result()"></div>
+        </div>
+           </form>
+    
+</body>
+</html>
